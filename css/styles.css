@@ -290,7 +290,7 @@ list-style: none;
     gap: 40px;
     flex-direction: row;
     justify-content: flex-start;
-    align-items: stretch;
+    align-items: center;
     padding-top: 24px;
     padding-bottom: 24px;
 }
