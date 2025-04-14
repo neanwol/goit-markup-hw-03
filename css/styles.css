@@ -214,10 +214,10 @@ padding-bottom: 120px;
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
+    display: inline-block;
     text-transform: uppercase;
     color: #4d5ae5;
     text-decoration: none;
-    display: inline-block;
     margin-bottom: 16px;
 }
 
@@ -262,6 +262,10 @@ p {
     display: flex;
     align-items: center;
     gap: 40px;
+    align-items: center;
+}
+
+nav {
     align-items: center;
 }
 
