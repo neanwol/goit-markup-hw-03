@@ -266,8 +266,7 @@ p {
 }
 
 
-.nav-list,
-.address-list {
+.nav-list {
     display: flex;
     gap: 40px;
     padding: 0;
@@ -281,6 +280,8 @@ p {
 .address-list {
 display: flex;
 gap: 40px;
+padding: 0;
+list-style: none;
 }
 
 .nav,
