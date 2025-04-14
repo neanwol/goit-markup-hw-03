@@ -186,7 +186,6 @@ padding-bottom: 120px;
     max-width: 1158px;
     margin: 0 auto;
     padding: 0 16px;
-    display: flex;
     flex-direction: column;
     gap: 16px;
 
