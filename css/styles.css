@@ -180,17 +180,6 @@ padding-bottom: 120px;
     letter-spacing: 0.02em;
 }
 
-
-
-.container-footer {
-    max-width: 1158px;
-    margin: 0 auto;
-    padding: 0 16px;
-    flex-direction: column;
-    gap: 16px;
-
-}
-
 .logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
