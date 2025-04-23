@@ -12,6 +12,10 @@ body {
     border-bottom: 1px solid #e7e9fc;
 }
 
+h3,p {
+    margin: 0;
+}
+
 .title {
     background-color: #2E2F42;
     color: #FFFFFF;
@@ -40,14 +44,11 @@ body {
 .title-two {
     color: #2E2F42;
     margin-bottom: 8px;
-    text-align: center;
 }
 
 .title-three {
     margin-right: auto;
     margin-left: auto;
-    padding-top: 120px;
-    padding-bottom: 72px;
     margin-bottom: 72px;
 }
 
@@ -56,7 +57,6 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    text-align: center;
 }
 
 .descr {
@@ -65,7 +65,6 @@ body {
     letter-spacing: 0.02em;
     color: #434455;
     text-align: start;
-    padding-left: 16px;
 }
 
 .btn {
@@ -91,8 +90,6 @@ body {
 
 .team {
     background-color: #f4f4fd;
-    width: 1440px;
-    height: 732px;
     padding: 120px 0;
 }
 
@@ -105,7 +102,6 @@ body {
     flex-direction: row;
     padding-top: 0px;
     padding-right: 0px;
-    padding-bottom: 120px;
     padding-left: 0px;
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08); 
     margin-left: auto;
@@ -149,14 +145,12 @@ padding-bottom: 120px;
     color: #2E2F42;
     margin-bottom: 8px;
     text-align: start;
-    padding-left: 16px;
 }
 
 .portfolio-list-item {
     width: calc((100% - 48px) / 3);
     row-gap: 24px;
     column-gap: 48px;
-    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 
 .portfolio-con {
@@ -189,10 +183,6 @@ padding-bottom: 120px;
     text-transform: uppercase;
     color: #4d5ae5;
     text-decoration: none;
-    padding-top: 24px;
-    padding-right: 76px;
-    padding-bottom: 24px;
-    padding-left: 156px;
     margin-right: 76px
 }
 
@@ -219,7 +209,6 @@ padding-bottom: 120px;
 
 
 h2 {
-    font-family: "Raleway", sans-serif;
     font-size: 36px;
     font-weight: 700;
     line-height: 1.11;
@@ -231,9 +220,11 @@ h2 {
     margin-right: auto;
 }
 
+.title-two, .desc {
+    text-align: center;
+}
 
 h3 {
-    font-family: "Raleway", sans-serif;
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
@@ -278,8 +269,6 @@ list-style: none;
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
-    padding-top: 24px;
-    padding-bottom: 24px;
 }
 
 .address {
@@ -312,6 +301,7 @@ list-style: none;
     letter-spacing: 0.02em;
     color: #2e2f42;
     padding: 24px 0;
+    display: block;
 }
 
 .link-one:hover,
@@ -353,11 +343,12 @@ a {
 }
 
 ul {
-    list-style: none;
+    margin: 0;
 }
 
 .header-container {
     display: flex;
+    align-items: center;
 }
 
 .container {
@@ -385,14 +376,10 @@ ul {
     display: flex;
     gap: 24px;
     justify-content: space-between;
-    padding-top: 120px;
     padding-right: 0px;
-    padding-bottom: 120px;
     padding-left: 0px;
-    align-items: center;
     margin-left: auto;
     margin-right: auto;
-    max-width: 1128px;
 }
  
 
