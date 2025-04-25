@@ -16,6 +16,15 @@ h3,p {
     margin: 0;
 }
 
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    margin: 0;
+}
+
 .title {
     background-color: #2E2F42;
     color: #FFFFFF;
@@ -338,13 +347,6 @@ address {
     color: #404BBF;
 }
 
-a {
-    text-decoration: none;
-}
-
-ul {
-    margin: 0;
-}
 
 .header-container {
     display: flex;
